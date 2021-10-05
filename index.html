@@ -8,24 +8,52 @@
 </head>
 
 <body lang="fr">
-<div class="min-h-screen bg-blue-500 py-6 flex flex-col justify-center sm:py-12">
+<div class="min-h-screen bg-gray-700 py-6 flex flex-col justify-center sm:py-12">
+	<div class="bg-gray-300 mb-7 py-5 sm:max-w-xl sm:mx-auto w-full px-2 sm:px-0 rounded shadow">
+		<h1 class="font-weight text-2xl text-center">
+			Philippe-Alexandre
+		</h1>
+		<h2 class="font-medium mt-5 text-sm text-center">
+			Chronologies des projets personnels
+		</h2>
+	</div>
     <div class="py-3 sm:max-w-xl sm:mx-auto w-full px-2 sm:px-0">
         <div class="relative text-gray-700 antialiased text-sm font-semibold">
             <!-- Vertical bar running through middle -->
-            <div class="hidden sm:block w-1 bg-blue-300 absolute h-full left-1/2 transform -translate-x-1/2"></div>
-            <!-- Left section, set by justify-start and sm:pr-8 -->
-            <div class="mt-6 sm:mt-0 sm:mb-12">
+            <div class="hidden sm:block w-1 bg-red-700 absolute h-full left-1/2 transform -translate-x-1/2"></div>
+			
+			<!-- Center section, set by mb-6 sm:mt-6 sm:mt-12 sm:mb-12 -->
+            <div class="mb-6 sm:mt-6 sm:mt-12 sm:mb-12">
+                <div class="flex justify-end w-full mx-auto items-center">
+                    <div id="year-20221" class="rounded-full font-bold text-white bg-red-600 border-white border-4 w-16 h-16 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                        2021
+                    </div>
+                </div>
+            </div>
+			
+            <!-- Right section, set by justify-end and sm:pl-8 -->
+            <div class="mt-6 sm:mt-0">
                 <div class="flex flex-col sm:flex-row items-center">
-                    <div class="flex justify-start w-full mx-auto items-center">
-                        <div class="w-full sm:w-1/2 sm:pr-8">
-                            <div class="p-4 bg-white rounded shadow">
-                                Now this is a story all about how,
+                    <div class="flex justify-end w-full mx-auto items-center">
+                        <div class="w-full sm:w-1/2 sm:pl-8">
+                            <div class="bg-gray-300 border border-red-300 p-4 bg-white rounded shadow">
+								<a href="https://etp.psln.nl/" class="h-full w-full" target="_blank" rel="noopener">
+									<h3 class="text-sm text-right pb-3">03/2021</h3>
+									<h2 class="text-xl pb-3">Exploring the Pompidou</h2>
+									<p class="text-justify">
+										Exploring The Pompidou vous permet de vous plonger visuellement dans les collections du Centre national d'art moderne, plus connu sous le nom de Centre Pompidou.
+									</p>
+								</a>
+								<p class="italic pt-3 text-right text-sm">
+									#museum #dataviz
+								</p>	
                             </div>
                         </div>
                     </div>
-                    <div class="rounded-full bg-blue-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                    <div class="rounded-full bg-red-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
                         </svg>
                     </div>
                 </div>
@@ -34,34 +62,160 @@
             <!-- Right section, set by justify-end and sm:pl-8 -->
             <div class="mt-6 sm:mt-0 sm:mb-12">
                 <div class="flex flex-col sm:flex-row items-center">
-                    <div class="flex justify-end w-full mx-auto items-center">
-                        <div class="w-full sm:w-1/2 sm:pl-8">
-                            <div class="p-4 bg-white rounded shadow">
-                                My life got flipped turned upside down,
+					<div class="flex justify-start w-full mx-auto items-center">
+                        <div class="w-full sm:w-1/2 sm:pr-8">
+                            <div class="bg-gray-300 border border-red-300 p-4 bg-white rounded shadow">
+								<a href="https://github.com/papposilene/navigart-scrapy" class="h-full w-full" target="_blank" rel="noopener">
+									<h3 class="text-sm text-right pb-3">03/2021</h3>
+									<h2 class="text-xl pb-3">Scraper for Navigart</h2>
+									<p class="text-justify">
+										Small Python script for scraping Navigart API of GColl software (by Videomuseum).
+									</p>
+								</a>
+								<p class="italic pt-3 text-right text-sm">
+									#museum
+								</p>	
                             </div>
                         </div>
                     </div>
-                    <div class="rounded-full bg-blue-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                    <div class="rounded-full bg-red-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
                     </div>
                 </div>
             </div>
-
-            <!-- Left section, set by justify-start and sm:pr-8 -->
-            <div class="mt-6 sm:mt-0 sm:mb-12">
+			
+            <!-- Right section, set by justify-end and sm:pl-8 -->
+            <div class="mt-6 sm:mt-0">
                 <div class="flex flex-col sm:flex-row items-center">
-                    <div class="flex justify-start w-full mx-auto items-center">
-                        <div class="w-full sm:w-1/2 sm:pr-8">
-                            <div class="p-4 bg-white rounded shadow">
-                                And I'd like to take a minute, just sit right there,
+                    <div class="flex justify-end w-full mx-auto items-center">
+                        <div class="w-full sm:w-1/2 sm:pl-8">
+                            <div class="bg-gray-300 border border-red-300 p-4 bg-white rounded shadow">
+								<a href="https://twitter.com/patchedmet" class="h-full w-full" target="_blank" rel="noopener">
+									<h3 class="text-sm text-right pb-3">03/2021</h3>
+									<h2 class="text-xl pb-3">PatchedMET</h2>
+									<p class="text-justify">
+										A bot by @papposilene that combines great artworks from the Metropolitan Museum of Art with video games 
+										patch notes (Crusader Kings 3, The Sims 4, World of Warcraft, etc.). Inspired by @litpatches_txt, created by @lizardengland.
+									</p>
+								</a>
+								<p class="italic pt-3 text-right text-sm">
+									#museumbots #museum #twitterbot
+								</p>	
                             </div>
                         </div>
                     </div>
-                    <div class="rounded-full bg-blue-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                    <div class="rounded-full bg-red-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+			
+            <!-- Center section, set by mb-6 sm:mt-6 sm:mt-12 sm:mb-12 -->
+            <div class="mb-6 sm:mt-6 sm:mt-12 sm:mb-12">
+                <div class="flex justify-end w-full mx-auto items-center">
+                    <div id="year-2020" class="rounded-full font-bold text-white bg-red-600 border-white border-4 w-16 h-16 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                        2020
+                    </div>
+                </div>
+            </div>
+			
+            <!-- Right section, set by justify-end and sm:pl-8 -->
+            <div class="mt-6 sm:mt-0 sm:mb-12">
+                <div class="flex flex-col sm:flex-row items-center">
+					<div class="flex justify-start w-full mx-auto items-center">
+                        <div class="w-full sm:w-1/2 sm:pr-8">
+                            <div class="bg-gray-300 border border-red-300 p-4 bg-white rounded shadow">
+								<a href="https://lddm.psln.nl/" class="h-full w-full" target="_blank" rel="noopener">
+									<h3 class="text-sm text-right pb-3">07/2020</h3>
+									<h2 class="text-xl pb-3">Les Démons du MIDI</h2>
+									<p class="text-justify">
+										Un petit projet pour effectuer un peu de statistiques et autres dataviz sur l'excellent podcast des Démons du MIDI : consoles ressorties, jeux vidéo présentés, 
+										artistes cités, bandes-sons explorées. Les honneurs dus à l'existence de ce podcast et de sa programmation doivent être rendu aux Césars que sont Gautoz, 
+										Pipomantis et Faskil, sans qui ce petit projet n'aurait pu voir le jour.
+									</p>
+								</a>
+								<p class="italic pt-3 text-right text-sm">
+									#podcast #dataviz
+								</p>	
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded-full bg-red-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+			
+            <!-- Left section, set by justify-start and sm:pr-8 -->
+            <div class="mt-6 sm:mt-0">
+                <div class="flex flex-col sm:flex-row items-center">
+                    <div class="flex justify-end w-full mx-auto items-center">
+                        <div class="w-full sm:w-1/2 sm:pl-8">
+                            <div class="bg-gray-300 border border-red-300 p-4 bg-white rounded shadow">
+								<a href="https://papposilene.github.io/museum-clicker/index.html" class="h-full w-full" target="_blank" rel="noopener">
+									<h3 class="text-sm text-right pb-3">04/2020</h3>
+									<h2 class="text-xl pb-3">Museum Clicker</h2>
+									<p class="text-justify">
+										An addictive incremental game that teaches players the history of museum's collections.
+									</p>
+								</a>
+								<p class="italic pt-3 text-right text-sm">
+									#game #museum
+								</p>	
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded-full bg-red-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+			
+            <!-- Center section, set by mb-6 sm:mt-6 sm:mt-12 sm:mb-12 -->
+            <div class="mb-6 sm:mt-6 sm:mt-12 sm:mb-12">
+                <div class="flex justify-end w-full mx-auto items-center">
+                    <div id="year-2018" class="rounded-full font-bold text-white bg-red-600 border-white border-4 w-16 h-16 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                        2018
+                    </div>
+                </div>
+            </div>
+			
+            <!-- Right section, set by justify-end and sm:pl-8 -->
+            <div class="mt-6 sm:mt-0 sm:mb-12">
+                <div class="flex flex-col sm:flex-row items-center">
+					<div class="flex justify-start w-full mx-auto items-center">
+                        <div class="w-full sm:w-1/2 sm:pr-8">
+                            <div class="bg-gray-300 border border-red-300 p-4 bg-white rounded shadow">
+								<a href="https://bot.psln.nl/" class="h-full w-full" target="_blank" rel="noopener">
+									<h3 class="text-sm text-right pb-3">12/2018</h3>
+									<h2 class="text-xl pb-3">LouvroBot</h2>
+									<p class="text-justify">
+										Petit bot qui tweete des oeuvres du @museelouvre en allant les récupérer sur la base de données Atlas, 
+										dans l'espoir et l'attente qu'un jour le musée du Louvre (sans parler des autres musées français) dispose de son API. 
+										En tout cas, n'hésitez pas à venir les admirer sur place, dans les salles du musée !
+									</p>
+								</a>
+								<p class="italic pt-3 text-right text-sm">
+									#museumbots #museum #twitterbot
+								</p>	
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded-full bg-red-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
                     </div>
                 </div>
@@ -72,20 +226,59 @@
                 <div class="flex flex-col sm:flex-row items-center">
                     <div class="flex justify-end w-full mx-auto items-center">
                         <div class="w-full sm:w-1/2 sm:pl-8">
-                            <div class="p-4 bg-white rounded shadow">
+                            <div class="bg-gray-300 border border-red-300 p-4 bg-white rounded shadow">
                                 <a href="https://tupeuxpaszeste.fr" class="h-full w-full" target="_blank" rel="noopener">
-                                    <h2>Tu Peux Pas Zeste</h2>
-                                    Avant le commencement, il y avait la tarte au citron meringuée. Puis, comme elle ne désirait que se faire croquer, elle créa Dieu. (Genèse, 0:1-2).<br />
-                                    Tu Peux Pas Zeste, aka TPPZ, est un projet universalo-oecuménique culinaire de test des diverses formes possibles du citron meringué, de la simple 
-                                    (mais pas forcément basique) tarte à une forme encore inconnue mais qu’il nous faut trouver, étudier, catégoriser, goûter et noter.
+                                    <h3 class="text-sm text-right pb-3">05/2018</h3>
+									<h2 class="text-xl pb-3">Tu Peux Pas Zeste</h2>
+									<p class="text-justify">
+										Avant le commencement, il y avait la tarte au citron meringuée. Puis, comme elle ne désirait que se faire croquer, elle créa Dieu. (Genèse, 0:1-2).<br />
+										Tu Peux Pas Zeste, aka TPPZ, est un projet universalo-oecuménique culinaire de test des diverses formes possibles du citron meringué, de la simple 
+										(mais pas forcément basique) tarte à une forme encore inconnue mais qu’il nous faut trouver, étudier, catégoriser, goûter et noter.
+									</p>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="rounded-full bg-blue-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                    <div class="rounded-full bg-red-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+			
+            <!-- Center section, set by mb-6 sm:mt-6 sm:mt-12 sm:mb-12 -->
+            <div class="mb-6 sm:mt-6 sm:mt-12 sm:mb-12">
+                <div class="flex justify-end w-full mx-auto items-center">
+                    <div id="year-2014" class="rounded-full font-bold text-white bg-red-600 border-white border-4 w-16 h-16 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                        2014
+                    </div>
+                </div>
+            </div>
+			
+            <!-- Left section, set by justify-start and sm:pr-8 -->
+            <div class="mt-6 sm:mt-0 sm:mb-12">
+                <div class="flex flex-col sm:flex-row items-center">
+                    <div class="flex justify-start w-full mx-auto items-center">
+                        <div class="w-full sm:w-1/2 sm:pr-8">
+                            <div class="bg-gray-300 border border-red-300 p-4 bg-white rounded shadow">
+								<a href="https://papposilene.github.io/2048/index.html" class="h-full w-full" target="_blank" rel="noopener">
+									<h3 class="text-sm text-right pb-3">06/2014</h3>
+									<h2 class="text-xl pb-3">Art History GIFs 2048</h2>
+									<p class="text-justify">
+										Art History GIFs 2048: From prehistoric Venus to Shia Labeouf's performance, an art history game featuring GIFs.
+									</p>
+								</a>
+								<p class="italic pt-3 text-right text-sm">
+									#game
+								</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded-full bg-red-500 border-white border-4 w-8 h-8 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                         </svg>
                     </div>
                 </div>
